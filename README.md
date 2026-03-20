@@ -1,14 +1,10 @@
-###### **🚀 ParaGig: AI-Powered Parametric Insurance for Gig Workers**
-
-
+##### **🚀 ParaGig: AI-Powered Parametric Insurance for Gig Workers**
 
 ParaGig is an automated, AI-driven insurance platform designed to provide financial security to gig economy workers (Swiggy, Zomato, etc.) whose earnings are vulnerable to external disruptions like extreme weather, high pollution, or lockdowns.
 
 ###### 
 
-###### **📌 Problem Statement**
-
-
+##### **📌 Problem Statement**
 
 Gig workers depend on daily deliveries for income. When external conditions like heavy rainfall, extreme heat, or hazardous AQI occur, they face a total loss of daily earnings.
 
@@ -34,9 +30,9 @@ ParaGig uses Parametric Insurance, where payouts are:
 * **Based on real-time data thresholds**
 * **Instantly credited to workers**
 
+##### 
 
-
-###### **✨ Features**
+##### **✨ Features**
 
 🔹 **Dynamic Risk Scoring**
 
@@ -60,25 +56,25 @@ UPI/Digital wallet-ready payouts
 
 
 
-###### **🛠️ Tech Stack**
+##### **🛠️ Tech Stack**
 
-**| Layer    | Technology                  |**
+  **Layer             Technology**    
 
-**| -------- | --------------------------- |**
+       
 
-**| Frontend | React.js, Tailwind CSS      |**
+  **Frontend :- React.js, Tailwind CSS**      
 
-**| Backend  | FastAPI (Python)            |**
+  **Backend  :- FastAPI (Python)**            
 
-**| Database | MongoDB Atlas               |**
+  **Database :- MongoDB Atlas**               
 
-**| AI/ML    | Scikit-learn, Pandas, NumPy |**
+  **AI/ML    :- Scikit-learn, Pandas, NumPy** 
 
-**| APIs     | OpenWeather API, WAQI API   |**
+  **APIs     :- OpenWeather API, WAQI API**   
 
 
 
-###### **🤖 AI Implementation**
+##### **🤖 AI Implementation**
 
 
 
@@ -105,21 +101,39 @@ The system uses AI in three key areas:
 
 ###### 
 
-###### **🌦️ Parametric Triggers \& Coverage**
+##### **🌦️ Parametric Triggers \& Coverage**
+
+###### 
+
+**Heavy Rain**
+
+**Threshold: > 15mm within 3 hours**
+
+**Data Source: OpenWeather API**
 
 
 
-**| Event                 | Threshold              | Data Source     |**
+**Air Pollution**
 
-**| --------------------- | ---------------------- | --------------- |**
+**Threshold: AQI > 400 (Severe)**
 
-**| Heavy Rain            | > 15mm within 3 hours  | OpenWeather API |**
+**Data Source: WAQI API**
 
-**| Air Pollution         | AQI > 400 (Severe)     | WAQI API        |**
 
-**| Extreme Heat          | Temp > 45°C            | OpenWeather API |**
 
-**| Lockdown/Curfew Alert | Official API/News Feed | Govt Sources    |**
+**Extreme Heat**
+
+**Threshold: Temperature > 45°C**
+
+**Data Source: OpenWeather API**
+
+
+
+**Lockdown/Curfew Alert**
+
+**Threshold: Official API / News Feed**
+
+**Data Source: Government Sources**
 
 
 
